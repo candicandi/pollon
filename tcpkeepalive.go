@@ -5,7 +5,7 @@ package pollon
 import (
 	"net"
 
-	"github.com/sorintlab/tcpkeepalive"
+	"github.com/candicandi/tcpkeepalive"
 )
 
 func (p *Proxy) SetupKeepAlive(conn *net.TCPConn) error {
